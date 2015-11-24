@@ -40,7 +40,9 @@ public class JUnitBerechnen {
 	  public static Collection<Object[]> values() {
 	    return Arrays.asList(new Object[][] {
 	     {5.5, 5.5, 5.5, 166.375}, 
-	     {5.5, 5.5, 5.5, 160} });
+	     {5.5, 5.5, 5.5, 160},
+	     {5.5, 5.5, 5.5, 165} 
+	     });
 	  }
 
 	@Test
