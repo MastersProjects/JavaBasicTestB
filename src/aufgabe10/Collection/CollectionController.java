@@ -4,6 +4,7 @@ public class CollectionController {
 	private Collection collection;
 	private double wertMap;
 	private int wertSet;
+	private String wertQueue;
 	
 	protected CollectionController(){
 		collection = new Collection();
@@ -26,5 +27,14 @@ public class CollectionController {
 	protected void getCollectionSetDataAndPrintValue(){
 		wertSet = collection.set.size();
 		System.out.println("Anzahl Werte in dem Set: " + wertSet);
+	}
+	
+	protected void getCollectionQueueDataAndPrintValue(){
+		wertQueue = collection.queue.peek();
+		System.out.println("Werte: " + wertQueue);
+	}
+	
+	protected void setCollectionQueueData(String name) {
+		collection.queue.add(name);
 	}
 }

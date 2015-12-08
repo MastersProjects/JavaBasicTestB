@@ -14,6 +14,15 @@ public class Starter {
 		controller.setCollectioSetData("Wert1");
 		controller.setCollectioSetData("Wert2");
 		controller.setCollectioSetData("Wert3");
+		/* 
+		 * Wird nicht zu dem Set hinzugefuegt
+		 * Erlaubt keine doppelte Werte 
+		 */
+		controller.setCollectioSetData("Wert1");
+		
+		controller.setCollectionQueueData("Elia");
+		controller.setCollectionQueueData("Phong");
+		controller.setCollectionQueueData("Luca");
 		
 		System.out.println("Collection");
 		System.out.println("Map:");
@@ -22,6 +31,10 @@ public class Starter {
 		System.out.println("**************************");
 		System.out.println("Set:");
 		controller.getCollectionSetDataAndPrintValue();
+		
+		System.out.println("**************************");
+		System.out.println("Queue:");
+		controller.getCollectionQueueDataAndPrintValue();
 	}
 
 }
