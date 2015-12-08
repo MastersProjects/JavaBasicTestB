@@ -10,7 +10,6 @@ import aufgabe2.ernaehrung.AbstractErnaehrung;
 import aufgabe2.ernaehrung.PflanzlichErnaehrung;
 import aufgabe2.ernaehrung.TierischErnaehrung;
 import aufgabe2.fortpflanzung.AbstractFortpflanzung;
-import aufgabe2.fortpflanzung.FischFortpflanzung;
 import aufgabe2.fortpflanzung.VogelFortpflanzung;
 import aufgabe2.fortpflanzung.SaeugetierFortpflanzung;
 
