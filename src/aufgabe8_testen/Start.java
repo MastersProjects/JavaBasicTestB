@@ -5,7 +5,7 @@ public class Start {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Berechnen berechnen = new Berechnen();
-		berechnen.berechnen(5.5, 5.5, 5.5);
+		berechnen.berechnen(5, 6, 7);
 	}
 
 }
